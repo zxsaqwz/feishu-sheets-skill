@@ -1,0 +1,31 @@
+{
+  "name": "feishu-sheets-skill",
+  "version": "1.0.0",
+  "description": "飞书电子表格完整操作技能 - 支持读取、写入、权限管理等所有功能",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "sheets",
+    "spreadsheet",
+    "openclaw",
+    "skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sinclair/typebox": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@larksuiteoapi/node-sdk": "*"
+  }
+}
